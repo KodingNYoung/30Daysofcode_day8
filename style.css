@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-size: cover;
+}
+.text{
+    background-color:rgb(127, 127, 209, 0.8);
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(216, 216, 216);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    padding: 15px;
+}
+.interlude{
+    font-size: 1.1rem;
+    padding: 30px;
+    text-align: justify;
+    line-height: 30px;
+}
+.header{
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 7px
+}
+.nbg{
+    background-color: inherit;
+}
+/* first image */
+.first-image{
+    background-image: linear-gradient(rgba(127, 127, 209, 0.4),rgba(127, 127, 209, 0.4)),url(firstimage.png);
+    height: 100vh;   
+}
+
+.text1{
+    background-color:rgb(216, 216, 216);
+}
+
+/*Second image*/
+.second-image{
+    background-image:linear-gradient(rgba(127, 127, 209, 0.4),rgba(127, 127, 209, 0.4)),url(secondimage.png);
+    height: 50vh;
+}
+.text2{
+    background-color:rgb(127, 127, 209);
+}
+/* third image */
+.third-image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(thirdimage.png);
+    height: 50vh;
+}
+.text3{
+    color:rgb(216, 216, 216);
+    background-color: rgb(4, 3, 10);
+}
+/* last image */
+.last-image{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(lastimage.png);
+    height: 100vh;
+}
